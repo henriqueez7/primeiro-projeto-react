@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    gap: .5rem;
+    border-radius:.4rem ;
+    background-color:#363535; 
+    min-width: 40rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.image{
+    width: 14rem;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #fff;
+} .titulo:hover{
+    color: #eddd4e;
+}
+
+.info{
+    color: #979797;
+}
+
+ .statusAlive, .statusDead, .statusUnknown {
+    background: green;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 100%;
+}
+
+.statusDead{
+    background: red;
+}
+
+.statusUnknown{
+    background: gray;
+}

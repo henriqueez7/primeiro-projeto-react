@@ -1,0 +1,35 @@
+.main{
+  width:100%;
+  color: #fff;
+}
+
+.contentTitle{
+  background-color: #fff;
+  height: 20rem;
+  display: grid;
+  place-items: center;
+}
+
+.titleMain{
+  font-size: 6rem;
+  text-align: center;
+  color: black;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: #4f4f4f;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.footer a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-left: .5rem;
+}
